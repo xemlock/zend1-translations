@@ -1,6 +1,6 @@
 <?php
 
-class ZeframTranslations_Bootstrap extends Zend_Application_Module_Bootstrap
+class Zend1Translations_Bootstrap extends Zend_Application_Module_Bootstrap
 {
     protected function _initTranslations()
     {
@@ -10,7 +10,7 @@ class ZeframTranslations_Bootstrap extends Zend_Application_Module_Bootstrap
             return;
         }
 
-        if (!$bootstrap->hasPluginResource('Translate') && !method_exists($bootstrap, '_initTranslate')) {
+        if (!$bootstrap->hasPluginResource('Translate') && !is_callable($bootstrap, '_initTranslate')) {
             return;
         }
 

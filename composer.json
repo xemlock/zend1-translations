@@ -1,7 +1,7 @@
 {
-    "name": "zefram/zefram-translations",
-    "description": "A ZF1 module providing better translations for built-in validation messages",
-    "type": "library",
+    "name": "xemlock/zend1-translations",
+    "description": "A ZF1 module providing translations of validation messages",
+    "type": "zend1-module",
     "license": "MIT",
     "authors": [
         {
@@ -10,9 +10,13 @@
         }
     ],
     "require": {
-        "zendframework/zendframework1": "^1.12"
+        "php": ">=5.2.11",
+        "zendframework/zendframework1": "^1.12",
+        "xemlock/zend1-composer-installer": "^0.1.0"
     },
     "autoload": {
-        "classmap": [ "Bootstrap.php" ]
+        "classmap": [
+            "Bootstrap.php"
+        ]
     }
 }

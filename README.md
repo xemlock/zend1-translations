@@ -1,12 +1,11 @@
-# zefram-translations
+# zend1-translations
 
-A Zend Framework 1 module providing better translations for built-in validation messages.
+A Zend Framework 1 module providing translations of validation messages.
 
 ## Justification
 
-The original translations contained `%value%` placeholder which caused the validated value
-to be injected in the error message, which was a horrible idea, especially for long text
-fields.
+The original translations contain `%value%` placeholder which causes the validated value
+to be injected in the error messages, which is a horrific idea, especially for long input values.
 
 Also the error messages for date validating were broken, not only because of the mentioned
 value placeholder, but also because they were misleading. If you specified the format as
@@ -28,10 +27,14 @@ Add the following lines to `composer.json` of your application:
 "repositories": [
     {
         "type": "git",
-        "url": "https://github.com/zeframphp/zefram-translations"
+        "url": "https://github.com/xemlock/zend1-translations"
     }
 ],
 "require": {
-    "zefram/zefram-translations": "dev-master"
+    "xemlock/zend1-translations": "dev-master"
 }
 ```
+
+## License
+
+MIT
