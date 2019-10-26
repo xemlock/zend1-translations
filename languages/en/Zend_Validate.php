@@ -40,7 +40,7 @@ return array(
 
     // Zend_Validate_Date
     // "Invalid type given. String, integer, array or Zend_Date expected" => "",
-    "'%value%' does not appear to be a valid date" => "Value is not a valid date in the format '%format%'",
+    "'%value%' does not appear to be a valid date" => "Value is not a valid date in the expected format",
     "'%value%' does not fit the date format '%format%'" => "Value is not a valid date in the format '%format%'",
 
     // Zend_Validate_Db_Abstract

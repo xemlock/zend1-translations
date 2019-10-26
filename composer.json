@@ -1,6 +1,6 @@
 {
     "name": "xemlock/zend1-translations",
-    "description": "A ZF1 module providing translations of validation messages",
+    "description": "A ZF1 module that provides better translations for validation messages",
     "type": "zend1-module",
     "license": "MIT",
     "authors": [

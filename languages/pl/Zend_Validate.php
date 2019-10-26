@@ -40,7 +40,7 @@ return array(
 
     // Zend_Validate_Date
     "Invalid type given. String, integer, array or Zend_Date expected" => "Podana wartość musi być ciągiem znaków, liczbą, tablicą lub obiektem Zend_Date",
-    "'%value%' does not appear to be a valid date" => "Wartość nie jest poprawną datą w formacie '%format%'",
+    "'%value%' does not appear to be a valid date" => "Wartość nie jest poprawną datą w oczekiwanym formacie",
     "'%value%' does not fit the date format '%format%'" => "Wartość nie jest poprawną datą w formacie '%format%'",
 
     // Zend_Validate_Db_Abstract
