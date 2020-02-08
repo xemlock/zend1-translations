@@ -10,7 +10,7 @@ to be injected in the error messages, which is a horrific idea, especially for l
 ## Installation
 
 ```
-composer require xemlock/zend1-translations:dev-master
+composer require xemlock/zend1-translations
 ```
 
 ## License
